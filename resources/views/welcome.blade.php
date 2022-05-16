@@ -1,10 +1,5 @@
-@extends('layouts.app')
-
-{{-- poner titulo de la pestaña --}}
-@section('title', 'Home')
-{{-- modificar el meta --}}
-@section('meta-description', 'Home Description')   
-
-@section('content')
-<h1>Inicio</h1>
-@endsection
+<x-layouts.app
+    title="Home"
+    meta-description="Description main Home">
+    <h1>Estamos en el Welcome</h1>
+</x-layouts.app>
