@@ -9,7 +9,7 @@ class PostController
 {
     public function index()
     {
-        $posts =  DB::table('post')->get();
+        $posts =  DB::table('posts')->get();
         return view('blog', ['posts' => $posts]);
     }
 }
