@@ -5,7 +5,7 @@
 
     @foreach ($posts as $post)
     <ul>
-        <li>{{$post['title']}}</li>
+        <li>{{$post->title}}</li>
     </ul>        
     @endforeach
 </x-layouts.app>
